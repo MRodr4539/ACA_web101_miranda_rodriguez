@@ -1,0 +1,33 @@
+.border{
+    border: 5px solid green;
+    border-style: ridge;
+}
+.border2{
+    border: 5px solid pink;
+    border-style: ridge;
+}
+.border3{
+    border: 5px solid yellow;
+    border-style: ridge;
+}
+.border4{
+    border: 5px solid red;
+    border-style: ridge;
+}
+.border5{
+    border: 5px solid purple;
+    border-style: ridge;
+}
+.contacts{
+    display: inline;
+}
+.column2{
+    display: inline-flex
+}
+/* .bio{
+    display: inline;
+} */
+.bio-contact{
+    display: flex;
+
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto');
 .border{
     border: 10px  solid white;
     border-style: ridge;
@@ -17,13 +18,19 @@ div.border3{
 
 }
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto" ;
     text-align: center;
     color: honeydew;
-    background-image: linear-gradient( rgb(224, 224, 255), rgb(44, 207, 212))
+    background-image: linear-gradient( rgb(224, 224, 255), rgb(44, 207, 212));
+    padding: 10px 50px 10px;
 }
 
 body{
     color:rgb(3, 109, 109) !important;
+    padding: 0 10%;
 
 }
+ main{
+     width: 80%;
+
+ }
