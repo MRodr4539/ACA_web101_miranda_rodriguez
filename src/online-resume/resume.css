@@ -1,10 +1,17 @@
+#logo{
+    color:blue;
+    text-align: center;
+}
+
 .border{
     border: 5px solid green;
     border-style: ridge;
 }
-.border2{
+.contacts-border2{
     border: 5px solid pink;
     border-style: ridge;
+    width: 100px;
+    padding-left: 40px
 }
 .border3{
     border: 5px solid yellow;
@@ -17,17 +24,35 @@
 .border5{
     border: 5px solid purple;
     border-style: ridge;
+   
 }
-.contacts{
+.line-border5{
+    width: 800px;
+}
+contacts{
     display: inline;
+    padding-left: 60px;
 }
-.column2{
-    display: inline-flex
+.column{
+    display: inline-flex;
+    width: 400px;
+    height: 300px;
+    
 }
+
 /* .bio{
     display: inline;
 } */
 .bio-contact{
     display: flex;
 
+}
+.column2{
+    display: inline-flex;
+    width: 400px;
+    height: 300px;
+}
+/*.header{
+    display:inline-flex;
+    
 }
