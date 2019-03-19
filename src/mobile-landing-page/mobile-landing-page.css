@@ -1,0 +1,40 @@
+
+
+.top-nav{
+    float:right;
+    float: up;
+    padding: 5% 15% 10%;
+
+}
+
+li{
+    border: black
+}
+.border-red{
+    color:black;
+}
+img{
+    width: 500px;
+    display: block;
+    width: 70%;
+    box-shadow: grey 0px 5px 5px;
+
+}
+
+@media (min-width:576px) {
+    .top-nav{
+        display:inline;
+    }
+
+}
+@media (max-width:576px) {
+    .top-nav{
+        display:none;
+    }
+}
+@media (min-width: 768px) {
+    .top-nav{
+        display:inline;
+    }
+
+}
