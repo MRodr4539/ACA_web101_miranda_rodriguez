@@ -1,0 +1,103 @@
+.grid-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2px;
+    
+}
+.grid-item-1{
+    background: rgb(43, 43, 104);
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row: span 6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+
+}
+.grid-item-2{
+    background:rgb(51, 175, 233);
+    grid-column: span 1;
+    grid-row: span 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item-3{
+    background:rgb(143, 195, 212);
+    grid-column: span 1;
+    grid-row: span 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item-4{
+    background: rgb(81, 136, 218);
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.grid-item-5{
+    background: rgb(77, 178, 182);
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.grid-item-6{
+    background: rgb(93, 221, 215);
+    grid-column: 2/ span 3;
+    grid-row: 2/ span 3;
+
+
+}
+.grid-item-7{
+    background: rgb(33, 172, 236);
+    grid-column: 5/ span 1;
+    grid-row: 2/ span 3;
+}
+.grid-item-8{
+    background: rgb(90, 161, 255);
+    grid-column: 2/ span 2;
+    grid-row: 5/ span 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+   
+
+}
+.grid-item-9{
+    background: rgb(0, 98, 128);
+    grid-column: 4/ span 2;
+    grid-row: 5/ span 2;
+}
+.grid-calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2px;
+}
+.grid-cal-1{
+    display: grid;
+    background: red;
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 2;
+}
+.grid-cal-2{
+    background: red;
+    grid-column: 1/ 1;
+    grid-row: 1/ 1;
+}
+img{
+    height: 100%;
+    padding: 0 130px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;                  
+}
