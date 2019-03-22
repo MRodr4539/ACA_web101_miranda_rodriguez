@@ -2,8 +2,20 @@
 
 .top-nav{
     float:right;
-    float: up;
-    padding: 5% 15% 10%;
+     display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: space-around;
+     margin: 0 30px 
+  
+}
+
+/* .top-page{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around; */
+    
+
 
 }
 
@@ -15,7 +27,7 @@ li{
 }
 img{
     width: 500px;
-    display: block;
+    display: inline;
     width: 70%;
     box-shadow: grey 0px 5px 5px;
 
@@ -23,7 +35,8 @@ img{
 
 @media (min-width:576px) {
     .top-nav{
-        display:inline;
+        
+        /* display:inline; */
     }
 
 }
@@ -34,7 +47,7 @@ img{
 }
 @media (min-width: 768px) {
     .top-nav{
-        display:inline;
+        /* display:inline; */
     }
 
 }
