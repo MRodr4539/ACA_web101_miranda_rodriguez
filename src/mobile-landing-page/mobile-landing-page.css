@@ -33,21 +33,29 @@ img{
 
 }
 
-@media (min-width:576px) {
-    .top-nav{
-        
-        /* display:inline; */
-    }
+.footer{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: grey;
+}
 
+#button{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:576px) {
+    .top-nav{ display:none; }
+    .footer{ display: none;}
 }
 @media (max-width:576px) {
-    .top-nav{
-        display:none;
-    }
+    .top-nav{ display:none;}
+   
 }
 @media (min-width: 768px) {
-    .top-nav{
-        /* display:inline; */
-    }
+    .top-nav{  display:inline; }
+    .footer{ display: none;}
 
 }
