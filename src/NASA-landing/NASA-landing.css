@@ -1,0 +1,111 @@
+body{
+    margin: 0 auto;
+    width:850px;
+}
+
+main{
+    height:400px;
+    margin: 0 auto;
+    background-image: url(./nasa2.jpg);
+    /* background-repeat: no-repeat; */
+    color:white;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lalezar', cursive;
+}
+
+ section{
+    padding: 5% 0 0;
+    display:flex;
+    height: 324px;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: space-between;
+    justify-content: space-around;
+    background: rgb(230,230,230);
+    font-family: 'Lalezar', cursive;
+  
+
+/* nav{ */
+     /* display:flex;
+    justify-content: center; */
+    /* flex-direction: column; */
+   
+}
+.bottom-nav-left{
+display:flex;
+flex-direction: column;
+width: 270px;
+}
+
+.bottom-nav-middle{
+    display:flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+.bottom-nav-right{
+     display:flex;
+    flex-direction: column;
+     width: 270px;
+ }
+/* article{
+    width:270px;
+    height: 324px;
+    display:flex;
+    justify-content: center;
+  
+} */
+
+ .whitebar{
+    background:white;
+    width:850px;
+    height: 50px;
+} 
+button{
+    color:grey;
+    width: 80px;
+    padding: 20px 40px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 13px 0px rgb(165, 164, 164);
+  transform: scale(1);
+  transition: transform 300ms ease;
+  background-color: rgba(61, 61, 61, 0.986);
+}
+.container--inner {
+    height: 50px;
+    width: 150px;
+    border-radius: 6px;
+    /* display:flex;
+   justify-content: center;
+   align-items: center; */
+   background-color: rgba(124, 32, 63, 0.281);
+  }
+  .button__wrapper {
+    padding: 10px 50px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 13px 0px rgb(165, 164, 164);
+    transform: scale(1);
+    transition: transform 300ms ease;
+    background-color: rgba(129, 129, 129, 0.849);
+  }
+  .button__wrapper:hover {
+    transform: scale(1.1);
+  }
+  .homeButton{
+   color: rgb(255, 255, 255);
+    font-size: 20px;
+
+  }
+  @media (min-width:576px) {
+   
+}
+@media (max-width:576px) {
+    
+   
+}
+@media (min-width: 768px) {
+ 
+}
