@@ -7,7 +7,7 @@ main{
     height:400px;
     margin: 0 auto;
     background-image: url(./nasa2.jpg);
-    /* background-repeat: no-repeat; */
+    display:inline;
     color:white;
     font-size: 80px;
     display: flex;
@@ -62,7 +62,7 @@ width: 270px;
  .whitebar{
     background:white;
     width:850px;
-    height: 50px;
+    height: 40px;
 } 
 button{
     color:grey;
@@ -99,13 +99,15 @@ button{
     font-size: 20px;
 
   }
-  @media (min-width:576px) {
+ @media (min-width:576px) {
    
 }
 @media (max-width:576px) {
-    
+  main{
+    width: 70%;
+  }  
    
 }
 @media (min-width: 768px) {
- 
+  
 }
