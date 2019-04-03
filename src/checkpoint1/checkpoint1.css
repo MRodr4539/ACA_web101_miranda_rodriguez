@@ -92,7 +92,8 @@ body{
     display: flex;
     background-image: url(./quote.jpg);
     background-repeat: no-repeat;
-    background-position: 50px;
+    /* background-position: 50px; */
+    background-size: 100% 100%;
   }
   
   .bottom-mobile-box{

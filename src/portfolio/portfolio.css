@@ -1,0 +1,72 @@
+body{
+    padding:30px;
+}
+.flexbox-nav {
+    display: flex;
+    justify-content: space-between;
+    border: solid rgba(182, 182, 182, 0.555);
+    border-radius: 5px;
+  }
+  .flexbox-nav .logo {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+  }
+  .flexbox-nav .navigation{
+    display: flex;
+    align-items: center;
+  }
+  .flexbox-nav ul li {
+    display: inline;
+    margin: 20px;
+  }
+  .fa{
+color:rgb(53, 53, 133);
+font-size: 40px;
+  }
+  
+.welcome{
+    height: 500px;
+    background-color:pink;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-me{
+    height: 500px;
+    background-color:rgb(56, 230, 236);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.projects{
+    height: 500px;
+    background-color:rgb(250, 50, 250);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tech-stack{
+    height: 500px;
+    background-color:rgb(120, 253, 68);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    height: 500px;
+    background-color:rgb(252, 177, 39);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 200px;
+    background-color:rgb(82, 82, 82);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
