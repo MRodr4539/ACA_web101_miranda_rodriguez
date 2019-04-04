@@ -1,5 +1,12 @@
 body{
     padding:30px;
+    background: url("../../images/salon.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'M PLUS 1p', sans-serif;
+  
+}
+.image-opacity{
+  background:rgba(255, 255, 255, 0.61);
 }
 .flexbox-nav {
     display: flex;
@@ -51,6 +58,14 @@ body{
   padding: 12px 60px;
   cursor: pointer;
   opacity:0.5;
+  margin: 0 10px 0;
+}
+
+.buttons{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .bottom-portion{
