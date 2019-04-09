@@ -1,0 +1,41 @@
+body{
+    height:100%;
+    width:100%;
+    margin: 30px
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2px;
+    
+}
+.Intro{
+    color:rgb(51, 204, 255);
+
+}
+.connecting-line{
+background-color:black;
+height:5px;
+ width:0;
+animation: linegrow 2s ease ;
+}
+.Name{
+color:rgb(255, 126, 148);
+}
+.Email-line{
+color:greenyellow;
+}
+.Tell-more{
+color: purple;
+}
+@keyframes linegrow{
+    0%{
+        opacity: 0;
+        width: 0;
+    }
+    100%{
+        opacity:1; 
+        width: 200px;
+    }
+}
