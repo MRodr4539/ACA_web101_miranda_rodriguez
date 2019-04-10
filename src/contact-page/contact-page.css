@@ -20,15 +20,7 @@ height:5px;
  width:0;
 animation: linegrow 2s ease ; 
 }
-.Name{
-color:rgb(255, 126, 148);
-}
-.Email-line{
-color:greenyellow;
-}
-.Tell-more{
-color: purple;
-}
+
 @keyframes linegrow{
     0%{
         opacity: 0;
@@ -38,4 +30,24 @@ color: purple;
         opacity:1; 
         width: 200px;
     }
+}
+.Name{
+color:rgb(255, 126, 148);
+grid-row: 1;
+grid-column: 3; 
+}
+.Email-line{
+color:greenyellow;
+grid-row: 2;
+grid-column: 3; 
+}
+.Tell-more{
+color: purple;
+grid-row: 2;
+grid-column: 1; 
+}
+
+.btn{
+    grid-row: 3;
+    grid-column: 2; 
 }
