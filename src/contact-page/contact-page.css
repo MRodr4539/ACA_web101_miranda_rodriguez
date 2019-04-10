@@ -18,7 +18,7 @@ body{
 background-color:black;
 height:5px;
  width:0;
-animation: linegrow 2s ease ;
+animation: linegrow 2s ease ; 
 }
 .Name{
 color:rgb(255, 126, 148);
