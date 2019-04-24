@@ -1,0 +1,32 @@
+.container{
+    border: 1px solid red;
+    height: 100px;
+    width: 300px;
+
+}
+.barcode{
+    border: 1px solid green;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.input{
+    border: 1px solid purple;
+    height: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.barcode-box{
+    border: 1px solid blue;
+    height: 40px;
+    width: 40px;
+    margin: 0 0 0 20px;
+}
+
+.container-two{
+    display: flex;
+    flex-direction: row; 
+}

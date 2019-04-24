@@ -1,0 +1,209 @@
+body{
+    padding:30px;
+    /* background-image: url(../../images/toast02.jpg);
+    background-repeat: no-repeat;
+    background-size: auto auto; */
+  }
+  .photo{
+      background-image: url(../../images/toast02.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:600px;
+  }
+  .opac{
+      background-color: rgba(251, 245, 245, 0.4588235294117647);
+      height:100%;
+      width: 100%; 
+  }
+  .flexbox-nav {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      padding: 0 25px;
+      margin: 1px;
+    font-family: 'Pontano Sans', sans-serif;
+    }
+    .flexbox-nav .navigation-right{
+      display: flex;
+      align-items: center;
+    }
+    .flexbox-nav ul li {
+      display: inline;
+      padding: 0px 20px 0;
+      font-size: 20px
+    }
+  
+  .fab{
+    padding: 5px;
+    font-size: 15px;
+  }
+  .left{
+    color:black;
+    font-size: 25px;
+   font-family: 'Cormorant Unicase', serif;
+  
+  }
+  .top-line{
+    width: 100hv;
+    height: 2px;
+    background-color:black; 
+    margin: 30px 0 0 0; 
+  }
+  .bottom-line{
+    width: 100hv;
+    height: 2px;
+    background-color:black;  
+  }
+  .par-one{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pontano Sans', sans-serif;
+  }
+ 
+  .our-work{
+    display:flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    font-family: 'Cormorant Unicase', serif;
+  }
+  .three-photo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+    
+  }
+  .photo-left{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: url(../../images/table.jpg);
+    background-size:cover;
+  }
+  .photo-center{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: url(../../images/flower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .photo-right{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    background-image: url(../../images/ringCer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .par-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pontano Sans', sans-serif;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn{
+    background-color: rgb(179, 179, 179);
+    border: none; 
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    opacity:0.5;
+    margin: 20px;
+    font-family: 'Cormorant Unicase', serif;
+  }
+  
+  
+  .five-photo{
+     display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+  }
+  .photo-one{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-image: url(../../images/feet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .photo-two{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-image: url(../../images/woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  .photo-three{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-image: url(../../images/car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .photo-four{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-image: url(../../images/flower02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  .photo-five{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-image: url(../../images/tables02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   font-family: 'Cormorant Unicase', serif;
+  }
+   .icons{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  } 
+  
+  /* small device */
+     @media (max-width:576px) {
+      .five-photo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+     .photo-two{
+        margin: 20px 0;
+     }
+     .photo-four{
+        margin: 20px 0;
+     }
+      .three-photo{
+        /* display: inline-block; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .photo-center{
+        margin: 20px 0;
+    }
+  }
+  
+  

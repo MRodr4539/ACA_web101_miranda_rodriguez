@@ -33,9 +33,9 @@ color:rgb(53, 53, 133);
 font-size: 40px;
 }
 .opac{
-  background-color:#C21460;
-  height:500px;
-  
+  background-color:rgba(194, 20, 96, 0.24);
+  height:100%;
+  width: 100%;  
 }
 .welcome{
 background: url(../images/cover.jpg);
