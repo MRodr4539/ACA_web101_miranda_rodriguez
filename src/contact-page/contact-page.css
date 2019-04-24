@@ -1,64 +1,101 @@
 body{
-    height:100%;
-    width:100%;
-    margin: 30px;
+  height:100%;
+  width:100%;
+  margin: 30px;
+background-color: #E6D0F7;
+font-family: 'Amatic SC', cursive;
+}
+.background{
+/* background-image:url(../../images/blue\ wood02.jpg); */
+background-size: cover;
+background-repeat: no-repeat;
+}
+.opac{
+background-color:rgba(255, 255, 255, 0.25);
+margin: 0 30px 0 0;
 }
 .grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-gap: 2px;
-    
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2px;
+ justify-content:center;
+align-items:center;
+  
 }
 .Intro{
-    font-family: 'Fredericka the Great', cursive;
-    color:rgb(51, 204, 255);
-
+  color:#ffffe6;
+  grid-row: 1;
+  grid-column: 2; 
+  text-shadow: 2px 2px grey;
+  font-size: 25px;
 }
 .connecting-line{
-background-color:black;
+background-color:#ffffe6;
 height:5px;
- width:100%;
+width:100%;
 animation: linegrow 2s ease ; 
-  margin: 40px 0 0 0;
+margin: 40px 0 0 0;
+grid-row: 1;
+grid-column: 3; 
 }
 
 @keyframes linegrow{
-    0%{
-        opacity: 0;
-        width: 0;
-    }
-    100%{
-        opacity:1; 
-        width: 200px;
-    }
+  0%{
+      opacity: 0;
+      width: 0;
+  }
+  100%{
+      opacity:1; 
+      width: 200px;
+  }
 }
 .Name{
-font-family: 'Fredericka the Great', cursive;
-color:rgb(255, 126, 148);
+color:#ffffe6;
 grid-row: 1;
-grid-column: 3; 
+grid-column: 4; 
 margin: 0 0 0 20px;
+text-shadow: grey 2px 2px;
+font-size: 25px;
 }
 .Email-line{
-font-family: 'Fredericka the Great', cursive;
-color:greenyellow;
+color:#ffffe6;
 grid-row: 2;
-grid-column: 3; 
+grid-column: 4; 
+text-shadow: grey 2px 2px;
 }
 .Tell-more{
-font-family: 'Fredericka the Great', cursive;
-color: purple;
+color: #ffffe6;
 grid-row: 2;
-grid-column: 1; 
+grid-column: 2; 
+text-shadow: grey 2px 2px;
 }
-.tell-more{
-  width: 200px;
-  height: 50px;
+.tell-more{ 
+width: 250px;
+height: 100%;
+
+} 
+.blank{
+background: transparent;
+border: none;
+border-bottom: 1px solid rgba(255, 255, 255, 0.34);
+font-family: 'Amatic SC', cursive;
+font-size: 20px;
 }
 .btn{
-  grid-row: 3;
-  grid-column: 2; 
-  margin: 20px;
-  color: rgb(243, 109, 32);
+font-family: 'Amatic SC', cursive;
+grid-row: 3;
+grid-column: 3; 
+color: 	 #ffffe6;
+border: none; 
+border-radius: 4px;
+font-size: 25px;
+cursor: pointer;
+background-color:  rgba(217, 217, 217, 0.53);
+text-shadow: grey 2px 2px;
+height: 40px;
+width: 150px;
+box-shadow: rgba(255, 255, 255, 0.34) 1px 3px 5px 1px;
+/*  opacity:0.5; */
+
 }
