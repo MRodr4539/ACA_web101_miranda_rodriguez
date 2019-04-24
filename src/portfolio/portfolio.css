@@ -61,6 +61,9 @@ color: #C21460;
   justify-content: center;
 
 }
+.about-me:hover{
+  text-decoration: underline;
+}
 .projects{
   height: 500px;
   background-color:#94B814;
@@ -71,16 +74,24 @@ color: #2B3409;
   justify-content: center;
 flex-direction: column;
 }
+.proj:hover{
+   text-decoration: underline;
+}
 .proj{
-padding: 0 0 200px 0;
+padding: 0 0 50px 0;
 }
 .pro-list{
-    display:flex;
-  flex-direction: row;
+    display:grid;
+ grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+  justify-content: center;
+   align-content: space-evenly;
 }
-.nasa{
+/* .nasa{
 margin: 0 20px;
-}
+} */
+
+
 .tech-stack{
   height: 500px;
   background-color:#C21460;
